@@ -1,6 +1,6 @@
 
-import java.awt.FlowLayout; // <-- Import untuk FlowLayout
-import javax.swing.JButton; // <-- Import untuk JButton
+import java.awt.FlowLayout; 
+import javax.swing.JButton; 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingUtilities;
@@ -13,8 +13,7 @@ public class Latihan3 {
                 frame.setSize(400, 300);
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-                // 1. Atur Layout Manager ke FlowLayout 
-                // Biar komponen tersusun kiri-ke-kanan 
+                
                 frame.setLayout(new FlowLayout());
 
               
@@ -30,7 +29,7 @@ public class Latihan3 {
                 frame.add(label);
                 frame.add(button); 
 
-                frame.setVisible(true); // [cite: 205]
+                frame.setVisible(true);
             }
         });
     }
